@@ -25,7 +25,6 @@ Steps:
 
 Time spent and progress
 
-Spent around 5-6 hours on this project. It succesfully lets a user vote for their favorite candidate and stores their vote on the blockchain. In future, I plan on reducing vulnerabilities for the dapp on the client-side.
-
+Spent around 5-6 hours on this project. It succesfully lets a user vote for their favorite candidate and stores their vote on the blockchain. In future, I plan on reducing the vulnerabilities of the dapp and making it more secure for the user.
 
 
