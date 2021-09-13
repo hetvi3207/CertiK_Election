@@ -1,6 +1,6 @@
 # CertiK_Election
 
-CERTIK ELECTION APP
+ELECTION VOTING APP
 
 Project Context
 
