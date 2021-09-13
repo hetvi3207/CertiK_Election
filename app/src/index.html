@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CertiK assignment - Election</title>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+  <h1 style="margin-top: 50px">Welcome to Voting Dapp secured on the blockchain!</h1>
+  <h5 style = "color: gray">Vote to make your favorite candidate win.</h5>
+  <div style="margin-top: 70px; width: 50%" class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Candidate</th>
+          <th>Votes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Candidate 1</td>
+          <td id="candidate-1"></td>
+        </tr>
+        <tr>
+          <td>Candidate 2</td>
+          <td id="candidate-2"></td>
+        </tr>
+        <tr>
+          <td>Candidate 3</td>
+          <td id="candidate-3"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+  <select class="form-select" id = "candidate" style = "height: 35px; width: 300px;" aria-label="Default select example">
+    <option selected>Select your favorite candidate</option>
+    <option value="Candidate 1">Candidate 1</option>
+    <option value="Candidate 2">Candidate 2</option>
+    <option value="Candidate 3">Candidate 3</option>
+  </select>
+
+  <a href="#" onclick="App.voteForCandidate()">
+    <button class="btn" style= "background-color: #3467e9 !important; color: white !important">
+      Vote
+    </button>
+  </a>
+  <br>
+  <br>
+  <p id = "message"></p>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.37/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+
+</html>
